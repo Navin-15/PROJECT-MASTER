@@ -1,0 +1,75 @@
+.managetheater {
+  width: 74.3% !important;
+  border-radius: 8px;
+  position: absolute;
+  right: 45px;
+  top: 70px;
+  padding: 3px;
+  display: flex;
+  background: #fff;
+  padding-left: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.manage-user-container {
+    height: 95vh;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 22.1%;
+    top: 23.5%;
+    width: 74%;
+    margin-left: 5px;
+    padding: 30px 30px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.table-light {
+background-color: red;
+}
+.delete {
+    height: 40px;
+    width: 40px;
+}
+.export-buttons {
+    position: absolute;
+    left: 45.7rem;
+}
+.edit-btn {
+   border: 1px solid green !important;
+   background-color: transparent !important;
+   padding: 5px 20px;
+}
+.delete-btn {
+    border: 1px solid red !important;
+    background-color: transparent !important;
+    padding: 5px 20px;
+}
+
+.showtime-badge {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 12px;
+  padding: 4px 3px;
+  margin: 3px 2px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.screen-badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.screen-badge {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  white-space: nowrap;
+}

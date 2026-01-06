@@ -1,0 +1,112 @@
+.theater {
+  width: 74%;
+  border-radius: 8px;
+  position: absolute;
+  right: 45px;
+  top: 70px;
+  padding: 3px;
+  display: flex;
+  background: #fff;
+  padding-left: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.form-actions button {
+    border-radius: 30px;
+    border: 2px solid #dc3545;
+    color: black;
+}
+
+input.form-control {
+    border-radius: 3px !important;
+}
+
+.cancel,
+.submit-update {
+  padding: 10px 25px !important;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.newtheaterformparent {
+    background: #fff;
+    margin-top: 3rem !important;
+    width: 59.2rem;
+    position: relative;
+    top: 80px;
+    left: 7.7rem;
+    padding: 45px 25px;
+    border-radius: 8px;
+}
+.for {
+  position: relative;
+  width: 70vw;
+  padding: 5px; 
+  gap: 8px;
+}
+.for input{
+  width: 69vw; 
+  display: flex;
+  gap: 8px;
+}
+
+.create-btn {
+  padding: 10px 25px !important;
+  height: 3rem; 
+  position: absolute;
+  right: 0rem;
+  bottom: -2.3rem;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 1.8px solid red !important;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: black;
+  background: transparent !important;
+}
+
+form {
+  padding: 0px;
+}
+
+/* Style select input with custom dropdown icon */
+.select-with-icon {
+  appearance: none; /* Remove default arrow in modern browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 18px;
+  padding-right: 35px; /* Add padding so text doesn't overlap icon */
+}
+
+.react-select__multi-value {
+  background-color: #e0e0e0;
+  border-radius: 20px !important;
+}
+
+.react-select__multi-value__label {
+  color: #333;
+}
+
+.react-select__multi-value__remove {
+  color: #666;
+}

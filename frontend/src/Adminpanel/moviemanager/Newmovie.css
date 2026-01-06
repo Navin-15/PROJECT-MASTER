@@ -1,0 +1,94 @@
+.movie {
+  width: 74%;
+  border-radius: 8px;
+  position: absolute;
+  right: 45px;
+  top: 70px;
+  padding: 3px;
+  display: flex;
+  background: #fff;
+  padding-left: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.movie-card .card-title {
+  font-size: 1.25rem;
+}
+
+.movie-card .card-text {
+  flex-grow: 1;
+}
+
+.movie-card-footer {
+  font-size: 0.85rem;
+}
+.createupdatediv {
+  width: 13rem;
+  position: absolute;
+  bottom: 0px;
+  padding: 0px 0px;
+  right: 0px;
+}
+.form-control {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+input.form-control {
+  border-radius: 3px;
+}
+.createupdatediv button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 2px solid #dc3545;
+    color: black;
+}
+.createupdatediv button:nth-child(1) {
+    background-color: transparent !important;
+    border: 2px solid #dc3545;
+    color: black;
+}
+.createupdatediv button:nth-child(2):hover {
+    background-color: #dc3545;
+    border: 2px solid #dc3545;
+    color: white;
+}
+
+.sideside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.create,
+.clear {
+  padding: 10px 25px !important;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.create {
+  background-color: red !important;
+}
+
+.clear {
+  background-color: transparent !important;
+  color: black !important;
+  border-radius: 30px !important ;
+  border: 1px solid red !important;
+}
+
+.form {
+  position: relative;
+  left: 15rem;
+  top: 3rem;
+}

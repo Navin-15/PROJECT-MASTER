@@ -1,0 +1,42 @@
+.reg-div {
+   padding: 20px;
+   width: 77.2%;
+   position: absolute;
+   left: 22.8%;
+   top: 0%;
+}
+.reg-input{
+  outline: none;
+  width: 95%;
+  margin: 10px;  
+}
+.sub {
+  outline: none;
+  width: 20%; 
+  margin: 10px; 
+}
+
+.table-div {
+   width: 75%;
+   position: absolute;
+   left: 22.8%;
+   top: 50%;
+}
+
+.excel{ 
+  position: absolute;
+   left: 40%;
+   padding: 5px;
+   margin: 5px 0px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap; 
+}
+.sideside{
+  width: 22.8%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+}

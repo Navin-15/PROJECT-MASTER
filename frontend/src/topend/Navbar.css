@@ -1,0 +1,1833 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logodiv{
+    margin: 0px 0px 0px 33px;
+    padding: 10px 0px 0px 13px;
+}
+.logo{
+    height: 35.9px;
+    width: 125px;
+    cursor: pointer;
+}
+.input{
+    width: 103%;
+    border-radius: 3px;
+    border: 1px solid rgb(229, 227, 227);
+    padding: 2px 2px 5px 35px;
+    margin: 25px 0px 0px 20px; 
+    outline: none;
+    font-size: small;
+    position: relative;
+    left: 10px;  
+    
+}
+.searchdiv{
+    width: 40%;
+    height: 35.33px;
+    position: relative;
+    right: -80px;
+    top: -8px;
+   
+}
+.searchimg{
+    height: 15px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px -85px;
+}
+.hamburger{
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.hey-div-1{
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(208, 213, 230);
+    padding: 10px 16px;
+    width: 100%;
+    min-height: 64px;
+}
+.hey-div-2{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.hey-div-3{
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    max-width: 84%;
+}
+.hey-div-4{
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.hey-div-5{
+    width: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(64, 64, 64);
+    z-index: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.off-div-1{
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px 0px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+.left-off-div{
+    align-items: center;
+    display: flex;
+}
+.gift-div{
+    align-items: center;
+    flex-shrink: 0;
+}
+.gift-img{
+    width: 40px;
+    height: 40px;
+}
+.off-text{
+    color: rgb(116, 126, 170);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0px 16px;
+}
+.right-reg-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    width: 147px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid rgb(248, 68, 100);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.regi{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    color: rgb(248, 68, 100);
+}
+.sec-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.notification-div{
+    width: 100%;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    min-height: 60px;
+    padding: 0px 15px;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+.noti{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.noti-img-div{
+    margin-right: 16px;
+}
+.noti-img{
+    height: 20px;
+    width: 20px;
+}
+.noti-text{
+    font-size: 14px;
+    line-height: 60px;
+    user-select: none;
+}
+.right-aro-div-1{
+    align-items: center;
+    justify-content: center;
+}
+.right-aro-div-2{
+    justify-content: flex-end;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+.right-aro-img{
+    font-size: 20px;
+}
+.your-order-div-1{
+    border-bottom: 1px solid rgb(241, 241, 241);
+    opacity: 0.4;
+    pointer-events: none;
+}
+.your-order-div-2{
+    width: 100%;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    min-height: 60px;
+    padding: 0px 15px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: none;
+    display: flex;
+
+}
+.lockimg{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+.your-order-text-div{
+    flex-grow: 1;
+}
+.yo{
+    font-size: 14px;
+    line-height: 1.43;
+    color: rgb(51, 51, 51);
+}
+.vaybp{
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgb(102, 102, 102);
+    margin-top: 2px;
+}
+.kutty-lock{
+    display: flex;
+    width: 18px;
+    height: 18px;
+}
+.play-credit-div-1{
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+.play-credit-div-2{
+    width: 100%;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    min-height: 60px;
+    padding: 0px 15px;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(241, 241, 241);
+    border-bottom: none;
+}   
+.signindiv{
+    position: relative;
+    right: 0px;
+    bottom: 0px; 
+}
+.signin{
+    background-color: rgb(228, 70, 70);
+    border-radius: 3px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+    padding: 6px 10px ;
+}
+.coimbatore{
+    font-size: small;
+    cursor: pointer;
+}
+.dropdownimg{
+    
+    position: relative;
+    top: 6px;
+    height: 10px;
+  
+    cursor: pointer;
+    padding: 0px 10px 0px 0px;
+}
+.location{
+    padding: 15px 0px 0px 0px;
+    margin: 0px 0px 0px 300px;
+    display: flex;  
+    justify-content: end;
+}
+
+/* Media query */
+ @media (max-width: 767.98px){
+.searchdiv{
+        display: none;
+    }
+}
+
+ @media (max-width: 768px){
+    .logodiv{
+        display: none;
+    }
+    .input{
+        padding: 8px 0px 8px 30px;
+        width: 115%;
+        margin-left: 250px;
+    }
+
+    .divrow{ 
+        margin: 0px 0px;
+    }
+    
+    .searchimgdiv{
+        position: relative;
+        bottom: 5px;
+        margin-left: 230px;
+    
+    }
+    .location{
+        display: none;
+    }
+    .signindiv{
+        display: none;
+    }
+ }
+
+ @media (min-width: 769px) and (max-width: 1023.98px){
+    
+    .navmain{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .divrow{ 
+        width: 92%;
+      
+        padding:10px 0px;
+    }
+    .logodiv{
+        display: block;
+        position: relative;
+        width: 100px;
+        left: 15px;
+        top: 2px;
+        height: 39px;
+    }
+    .logo{
+        position: relative;
+        left: -14px;
+        top: -9px;
+        width: 100px;
+    }
+    .input{
+        padding: 8px 0px 8px 30px;
+        max-width: 90.5%;
+        position: absolute;
+        right: -5px;
+        bottom: -1px;
+    }
+    .searchdiv{
+        max-width: 60%;
+        position: absolute;
+        left: 20.5%;
+        top: 17px;
+        margin: 0px 0px 0px -30px;
+    }
+    .searchimgdiv{
+        position: absolute;
+        top: 5px;
+        right: 87.5%;
+    }
+    .searchimg{
+        top: 0px;
+        left: 15px;
+    }
+    .location{
+        position: absolute;
+        top: 16px;
+        left: 35.5%;
+        width: 15%;
+        margin: 0px 0px 0px 250px;
+        
+    }
+    .coimbatore{
+        position: relative;
+        right: 9px;
+        top: -6px;
+    }
+    .dropdownimg{
+        position: relative;
+        top: 0px;
+        right: 5px;
+        height: 10px;
+        padding: 0px 0px;
+    }
+    .signindiv{
+        position: absolute;
+        top: 16px;
+        right: 0px;
+        width: 108px;
+        height: 35px;
+    }
+    .signburger{
+     
+        position: absolute;
+        left: 0px;
+        top: -1px;
+    }
+    .signin{
+        position: relative;
+        top: 5px;
+    }
+    .hamburger{
+        position: absolute;
+        top: 0px;
+        height: 35px;
+        width: 35px;
+        padding: 0px 0px;
+        margin-left: 10px;
+    }
+ } 
+ @media (min-width: 1024px) and (max-width: 1059.98px){
+    
+    .navmain{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .divrow{
+        height: 60px;
+      
+        display: flex;
+        justify-content: space-evenly;
+        width: 101.2%;
+        
+        padding:0px 0px;
+    }
+
+    .input{
+        width: 90%;
+        padding: 8px 0px 8px 30px;
+        position: relative;
+        right: 0%;
+    }
+    
+    .logodiv{
+        position: relative;
+        top: 3px;
+        width: auto;
+    }
+    .logo{
+        position: relative;
+        top: 3px;
+    }
+    .searchimgdiv{
+        position: relative;
+        right: 0%;
+        bottom: 3px;
+    }
+    .searchimg{
+        position: relative;
+        left: -88%;
+        bottom: -3px;
+    }
+    .location {
+        position: relative;
+        left: -3%;
+        width: auto;
+    
+    }
+     .coimbatore{
+        position: relative;
+        right: 200%;
+        top: 5px;
+        height: 20px;
+    } 
+    .dropdownimg{
+        position: relative;
+        
+
+       
+        right: 200%;
+        
+        
+        top: 10px;
+    }
+
+    .signindiv{
+        position: relative;
+        left: 40%;
+        bottom: 30px;
+        width: auto;
+    }
+    .hamburger {
+        position: absolute;
+        top: -2px;
+        height: 30px;
+        width: 30px;
+        padding: 0px 0px;
+        margin-left: 10px;
+    }
+    .signburger{
+    position: relative;
+    top: 0px;
+    }
+ }
+ @media (min-width: 1060px) and (max-width: 1439.98px){
+    
+    .navmain{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .divrow{
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100.9%;
+        padding:0px 0px;
+    }
+
+    .input{
+        width: 90%;
+        padding: 8px 0px 8px 30px;
+        position: relative;
+        right: -12%;
+    }
+    
+    .logodiv{
+        position: relative;
+        top: 3px;
+        width: auto;
+    }
+    .logo{
+        position: relative;
+        top: 0px;
+        left: 20px;
+    }
+    .searchimgdiv{
+        position: relative;
+        right: 0%;
+        bottom: 3px;
+    }
+    .searchimg{
+        position: relative;
+        left: -76%;
+        bottom: -3px;
+    }
+    .location {
+        position: relative;
+        left: -3%;
+        width: auto;
+    
+    }
+     .coimbatore{
+        position: relative;
+        right: 100%;
+        top: 5px;
+        height: 20px;
+    } 
+    .dropdownimg{
+        position: relative;
+   
+        right: 100%;
+        
+        
+        top: 10px;
+    }
+
+    .signindiv{
+        position: relative;
+        top: -30px;
+        left: 42%;
+        height: 29px;
+        width: auto;
+    }
+    .hamburger {
+        position: absolute;
+        top: -2px;
+        height: 30px;
+        width: 30px;
+        padding: 0px 0px;
+        margin-left: 10px;
+    }
+    .signburger{
+    position: relative;
+    
+    }
+ } 
+
+  @media (min-width: 1440px){
+    
+    .navmain{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .divrow{
+        height: 60px;
+
+        display: flex;
+        justify-content: space-evenly;
+        width: 101%;
+        padding:0px 0px;
+    }
+
+    .input{
+        width: 90%;
+        padding: 8px 0px 8px 30px;
+        position: relative;
+        right: -12%;
+    }
+    
+    .logodiv{
+        position: relative;
+        top: 3px;
+        width: auto;
+    }
+    .logo{
+        position: relative;
+        top: 0px;
+        left: 20px;
+    }
+    .searchimgdiv{
+        position: relative;
+        right: 0%;
+        bottom: 3px;
+    }
+    .searchimg{
+        position: relative;
+        left: -76%;
+        bottom: -3px;
+    }
+    .location {
+        position: relative;
+        left: -3%;
+        width: auto;
+    
+    }
+     .coimbatore{
+        position: relative;
+        right: 100%;
+        top: 5px;
+        height: 20px;
+    } 
+    .dropdownimg{
+        position: relative;
+       
+        right: 100%;
+       
+        
+        top: 10px;
+    }
+
+    .signindiv{
+        position: relative;
+        left: -4%;
+        bottom: 0px;
+        width: auto;
+    }
+    .signburger{
+    position: relative;
+    top: 0px;
+    }
+ } 
+
+
+ @media (min-width: 1280px){
+    .logodiv{
+        position: relative;
+        right: 0%;
+        bottom: 3px;
+    }
+    .logo{
+        position: relative;
+        right: 8%;
+    }
+    .input{
+        width: 100%;
+        position: relative;
+        right: -20%;
+        bottom: 3px;
+    }
+    .searchimg{
+        position: relative;
+        left: -71%;
+        bottom: -3px;
+    }
+    .searchimgdiv{
+        position: relative;
+        right: -96%;
+        bottom: 37px;
+    }
+    .coimbatore{
+        position: relative;
+        right: 25%;
+    }
+    .dropdownimg{
+        position: relative;
+        right: 28px;
+    }
+    .signin{
+        position: relative;
+        left: 25px;
+    }
+    .signindiv{
+        position: relative;
+        top: 10px;
+        left: -5%;
+        height: 25px;
+        width: auto;
+    }
+    .hamburger{
+        position: relative;
+        left: 35px;
+        top: 0px;
+        height: 50px;
+        width: 50px;
+        padding: 0px 0px;
+        margin-left: 10px;
+    }
+    .signburger{
+            padding: 5px;
+            margin-top: -10px;
+    }
+    
+ }
+
+ /*Innerinput section */
+
+@media (min-width: 1280px){
+.main-div{
+    background: rgba(237, 237, 237, 0.5);
+    width: 100%;
+    }
+ .innerinputsearchdiv{
+    padding: 3.5% 0px;
+    display: flex;
+    justify-content: center;
+ }
+ .innerinputfield{
+    width: 700px;
+    padding: 13px 20px;
+    position: relative;
+    top: -13px;
+    right: -8px;
+    outline: none;
+    font-size: 12px;
+    border: none;
+ }
+ .leftspan{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 230px;
+    bottom: 4px;
+ }
+ .leftarrow{
+    position: relative;
+    bottom: 4px;
+    fill: rgb(120, 114, 114);
+    cursor: pointer;
+ }
+ .closespan{
+    height: 22px;
+    width: 30px;
+    position: relative;
+    left: 230px;
+    bottom: 4px;
+ }
+ .close{
+    position: relative;
+    bottom: 4px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+ }
+ 
+ .top-entertainmentdiv{
+    margin-top: 20px; 
+ }
+
+ .entertainment{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    opacity: 1;
+    width: 21.5%;
+ }
+ .movies{
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex: 0 0 auto;
+    transition: 0.2s ease-in-out;
+    color: rgb(51, 51, 51);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(242, 242, 242);
+ }
+ .cinemas{
+    font-size: 12px;
+    cursor: pointer;
+    padding: 8px 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex: 0 0 auto;
+    transition: 0.2s ease-in-out;
+    color: rgb(153, 153, 153);
+    background: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+ }
+ .cinemas:hover{
+    color: rgb(51, 51, 51);
+ }
+ .langdiv{
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    opacity: 1;
+ }
+ .languagesdiv{
+    cursor: default;
+    align-items: center;
+    position: relative;
+    bottom: 32px;
+    margin: 0px 0px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+ }
+ .filter{
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    padding-right: 5px;
+ }
+ .language{
+    color: rgb(102, 102, 102);
+    font-size: 11px;
+    cursor: pointer;
+    margin: 0px 5px;
+    padding: 4px 10px;
+    position: relative;
+    border-radius: 500px;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    transition: 0.2s ease-in-out;
+ }
+ .onemore{
+    color: rgb(220, 53, 88);
+    border-color: rgb(220, 53, 88);
+    font-size: 11px;
+    cursor: pointer;
+    margin: 0px 5px;
+    padding: 4px 10px;
+    position: relative;
+    border-radius: 500px;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+ }
+ .language:hover{
+    color: rgb(220, 53, 88);
+    border-color: rgb(127, 121, 122);
+ }
+
+ /* innerinput column one  */
+
+ .column-one{
+    width: 23%;
+    float: left;
+    
+ }
+ .lungs{
+    cursor: default;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(220, 53, 88);
+    padding: 6px 0px 3px;
+    width: auto;
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+ }
+ .heart{
+    color: rgb(220, 53, 88);
+    height: 13px;
+    width: 15px;
+    margin-left: -5px;
+
+ }
+ .percentage{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(153, 153, 153);
+    font-size: 11px;
+    margin-left: -3px;
+
+ }
+ .moviediv{
+    margin-bottom: 5px;
+ }
+ .moviespan{
+    line-height: 1;
+    padding: 6px 0px 3px 0px;
+    align-items: center;
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+ }
+ .moviename{
+    margin-right: 5px;
+    user-select: none;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    line-height: 1.4;   
+    position: relative;
+    letter-spacing: 0.2px;  
+ }
+ .gangers::after{
+    display: inline-block;
+    content: "new";
+    margin-left: -6px;
+    margin-right: 6px;
+    color: rgb(255, 203, 1);
+    text-transform: uppercase;
+    font-size: 9px;
+    text-decoration: none;
+ }
+
+ .dimentiondiv{
+    margin: 5px 0px 0px 0px;
+    flex-wrap: wrap;
+    border-left: 1px solid rgb(204, 204, 204);
+    display: flex;
+ }
+ .dimention{
+        display: inline;
+        color: rgb(51, 51, 51);
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 2px 10px;
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+        text-transform: uppercase;
+        background: rgb(255, 255, 255);
+        transition: 0.2s ease-in-out;
+        border-top: 1px solid rgb(204, 204, 204);
+        border-right: 1px solid rgb(204, 204, 204);
+        border-bottom: 1px solid rgb(204, 204, 204);
+        border-image: initial;
+        flex: 0 0 auto;
+        border-left: none;
+ }
+ .dimention:hover{
+    background: rgb(220, 53, 88);
+    color: white;
+ }
+
+
+ /* Innerinput column-two */
+ .column-two{
+    width: 23%;
+    float: left;
+ }
+ .column-three{
+    width: 23%;
+    float: left;
+ }
+ .column-four{
+    width: 21%;
+    float: left;
+ }
+ .column-five{
+    width: 21%;
+    float: right;
+    margin-right: 10%;
+ }
+ .column-six{
+    width: 23%;
+    float: right;
+    margin-right: 8%;
+ }
+ .column-seven{
+    width: 23%;
+    float: right;
+    margin-right: 8%;
+ }
+}
+/* Cities section*/
+/* search input */
+
+@media (min-width: 1280px){
+    .city-main-div{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        max-width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .city-sub-div{
+        background-color: rgb(255, 255, 255);
+        opacity: 1;
+        position: relative;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    .city.inner-div{
+        width: 100%;
+        max-width: 975px;
+        min-width: 600px;
+        position: relative;
+    }
+    .input-parent{
+        position: relative;
+        width: 100%;
+    }
+    .input-child{
+        padding: 15px 0px;
+    }
+    .input-grand-child{
+        width: 100%;
+        align-items: center;
+        border: 1px solid rgb(241, 241, 241);
+        border-radius: 2px;
+        display: flex;
+    }
+    .input-grand-grand-child{
+        width: 40px;
+        height: 45px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .magnifier-glass{
+        height: 20px;
+        width: 25px;
+        margin: 13px 10px;
+        padding: 1px;
+    }
+    .city-input{
+        width: 100%;
+        height: 45px;
+        border: none;
+        font-size: 12px;
+        text-indent: 15px;
+        outline: none;
+    }
+
+/* Detect my location section */
+
+    .target-parent{
+        position: relative;
+        width: 100%;
+        color: rgb(220, 53, 88);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        padding: 0px 16px 12px;
+        border-bottom: 1px solid rgb(221, 221, 221);
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .target-child{
+        display: flex;
+        margin-left: 5px;
+    }
+    .target-icon-div{
+        margin-right: 12px;
+    }
+    .target-img{
+        height: 18px;
+        width: 18px;
+    }
+    .target-text{
+        margin-right: 12px;
+    }
+
+/* popular cities sections*/
+
+    .popular-city-div{
+        position: relative;
+        width: 100%;
+        padding: 10px 6px;
+        display: flex;
+       
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 auto;
+    }
+    .popular-city-text{
+        font-size: 14px;
+        position: relative;
+        top: 3px;
+        width: fit-content;
+        text-transform: none;
+        color: rgb(51, 51, 51);
+        cursor: default;
+    }
+
+    ul{
+        list-style: none;
+    }
+    .unorder-list{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 8px 0px;
+    }
+
+    .list-item{
+        display: flex;
+        cursor: pointer;
+        margin: 8px 12px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .city-div{
+        display: flex;
+        cursor: pointer;
+        margin: 0px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .city-img-div{
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 5px;
+        justify-content: center;
+    }
+    .city-img{
+        height: 100%;
+        max-width: 100%;
+    }
+    .list-text{
+        color: rgb(102, 102, 102);
+        font-size: 14px;
+        max-width: 110px;
+        word-break: break-word;
+        text-align: center;
+    }
+
+    .view-all-cities-div{
+        position: relative;
+        width: 100%;
+        padding: 10px 6px;
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 auto;
+    }
+    .view-all-cities-text{
+        font-size: 14px;
+        width: fit-content;
+        text-transform: none;
+        color: rgb(220, 53, 88);
+        cursor: pointer;
+    } 
+}
+
+@media (max-width: 1279px){
+    .city-main-div{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        max-width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .city-sub-div{
+        background-color: rgb(255, 255, 255);
+        opacity: 1;
+        position: relative;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    .city.inner-div{
+        width: 100%;
+        max-width: 975px;
+        min-width: 600px;
+        position: relative;
+    }
+    .input-parent{
+        position: relative;
+        width: 100%;
+    }
+    .input-child{
+        padding: 15px 0px;
+    }
+    .input-grand-child{
+        width: 100%;
+        align-items: center;
+        border: 1px solid rgb(241, 241, 241);
+        border-radius: 2px;
+        display: flex;
+    }
+    .input-grand-grand-child{
+        width: 40px;
+        height: 45px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .magnifier-glass{
+        height: 20px;
+        width: 25px;
+        margin: 13px 10px;
+        padding: 1px;
+    }
+    .city-input{
+        width: 100%;
+        height: 45px;
+        border: none;
+        font-size: 12px;
+        text-indent: 15px;
+        outline: none;
+    }
+
+/* Detect my location section */
+
+    .target-parent{
+        position: relative;
+        width: 100%;
+        color: rgb(220, 53, 88);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        padding: 0px 16px 12px;
+        border-bottom: 1px solid rgb(221, 221, 221);
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .target-child{
+        display: flex;
+        margin-left: 5px;
+    }
+    .target-icon-div{
+        margin-right: 12px;
+    }
+    .target-img{
+        height: 18px;
+        width: 18px;
+    }
+    .target-text{
+        margin-right: 12px;
+    }
+
+/* popular cities sections*/
+
+    .popular-city-div{
+        position: relative;
+        width: 100%;
+        padding: 10px 6px;
+        display: flex;
+        
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 auto;
+    }
+    .popular-city-text{
+        font-size: 14px;
+        position: relative;
+        top: 3px;
+        width: fit-content;
+        text-transform: none;
+        color: rgb(51, 51, 51);
+        cursor: default;
+    }
+
+    ul{
+        list-style: none;
+    }
+    .unorder-list{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 8px 0px;
+    }
+
+    .list-item{
+        display: flex;
+        cursor: pointer;
+        margin: 8px 12px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .city-div{
+        display: flex;
+        cursor: pointer;
+        margin: 0px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .city-img-div{
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 5px;
+        justify-content: center;
+    }
+    .city-img{
+        height: 100%;
+        max-width: 100%;
+    }
+    .list-text{
+        color: rgb(102, 102, 102);
+        font-size: 14px;
+        max-width: 110px;
+        word-break: break-word;
+        text-align: center;
+    }
+
+    .view-all-cities-div{
+        position: relative;
+        width: 100%;
+        padding: 10px 6px;
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 auto;
+    }
+    .view-all-cities-text{
+        font-size: 14px;
+        width: fit-content;
+        text-transform: none;
+        color: rgb(220, 53, 88);
+        cursor: pointer;
+    }
+}
+
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  
+/* Login Section */
+
+@media (min-width: 769px){
+    
+    .content-div{
+        width: 428px;
+        height: auto;
+        border-radius: 8px;
+    }
+    .get-started-div{
+        position: relative;
+        padding: 24px 28px;
+        box-shadow: none;
+       
+    }
+    
+    .login-main-div{
+        position: fixed;
+        top: 0px;
+      
+        left: 0px;
+        
+        width: 100%;
+        height: 100%;
+        z-index: 500;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .login-div{
+        background-color: rgb(255, 255, 255);
+        position: relative;
+       
+        opacity: 1;
+    }
+    .get-started-div{
+        background: rgb(255, 255, 255);
+        z-index: 1;
+        width: 100%;
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    .get{
+        display: flex;
+        flex-flow: row;
+        align-items: stretch;
+        justify-content: flex-start;
+        opacity: 1;
+    }
+
+    .getstart{
+        flex: 1 1 0%;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: none;
+        color: rgb(51, 51, 51);
+    }
+
+    .cls{
+        position: relative;
+        right: 20px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .cls-2{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        align-items: center;
+    }
+
+    .clo{
+        position: relative;
+        bottom: 4px;
+        height: 25px;
+        width:  25px;
+        cursor: pointer;
+     }
+
+    .continue-section{
+        height: 485px;
+        padding: 0px 42px;
+        border-radius: 8px;
+    }
+    .continue-with-parent{
+        max-height: 100%;
+        opacity: 1;
+        visibility: visible;
+        margin-top: 0px;
+    }
+
+    .continue-with-child-one{
+        padding: 16px 6px 0px;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .continue-with-grandchild{
+        zoom: 1;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .continue-with-grandchild-1{
+        
+        text-decoration: none;
+        
+        background: 0px 0px;
+        padding: 0px 0px 16px;
+    }
+
+    .continue-with-grandchild-1-1{
+        width: 100%;
+        height: 48px;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+    }
+
+    .continue-with-google-div{
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        padding: 13px 0px;
+        font-size: 12px;
+        overflow: hidden;
+        position: absolute;
+        border-radius: 4px;
+        text-align: center;
+        display: inline-block;
+        font-weight: bold;
+        color: rgb(89, 89, 89);
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(153, 153, 153);
+        transition: background 0.5s ease-out;
+    }
+
+    .continue-with-google-div:hover{
+        background-color: #eae7e7;
+        border: none;
+        transition: 0.6s ease-in-out;
+        scale: 1.1;
+    }
+    .cls:hover{
+        transition: 0.6s ease-in-out;
+        scale: 1.1;
+    }
+
+    .continue-with-google-text{
+        width: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        text-align: center;
+        margin-left: 8px;
+    }
+
+    .google-logo-span{
+        width: 19px;
+        height: 19px;
+  
+    }
+
+    .google-logo{
+        max-width: 100%;
+        
+    }
+
+    .apple-icon{
+        max-width: 100%;
+        height:20px ;
+        width: 20px;
+        color: black;
+    }
+    
+    .continue-with-child-two{
+        text-align: center;
+        padding-bottom: 6px;
+    }
+
+    .or-div{
+        font-size: 14px;
+        font-weight: normal;
+        color: rgb(102, 102, 102);
+    }
+
+    .form-parent{
+        display: flex;
+        flex: 1 1 0%;
+        flex-direction: column;
+    }
+    .form-child-1{
+        padding: 44px 0px 44px;
+    }
+    .form-grand-child-1{
+        padding: 0px 6px;
+        display: flex;
+    }
+    .indian-flag-div{
+        align-self: flex-end;
+        width: 18px;
+        height: 12px;
+        margin: 0px 5px 20px 0px;
+    }
+    .indian-flg{
+        max-width: 200%;
+    }
+    .ninetyone-text{
+        font-size: 14px;
+        padding: 0px 8px 8px 0px;
+        align-self: flex-end;
+        color: rgb(102, 102, 102);
+    }
+    .input-box{
+        flex: 1 1 0%;
+        align-self: flex-end;
+    }
+    .input-div{
+        margin-top: 0px;
+        
+    }
+    .in-put{
+        font-family: inherit;
+        width: 100%;
+        outline: 0px;
+        font-size: 14px;
+        color: rgb(102, 102, 102);
+        padding: 4px 0px 8px;
+        margin: 0px;
+        background: transparent;
+        transition: border-color 0.2s;
+        border-width: 0px 0px 1px;
+        border-top-style: initial;
+        border-right-style: initial;
+        border-left-style: initial;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-left-color: initial;
+        border-image: initial;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(204, 204, 204);
+        border-radius: 0px;
+    }
+    .in-put:placeholder-shown ~ lable {
+        font-size: 14px;
+        cursor: text;
+        top: 14px;
+        left: 0px;
+        color: rgb(102, 102, 102);
+        opacity: 0.75;
+    }
+    .lable{
+        position: relative;
+        top: 30px;
+    }
+    .form-child-2{
+        padding: 24px 0px;
+    }
+    .i-agree-div{
+        color: rgb(102, 102, 102);
+        font-size: 12px;
+        text-align: center;
+        padding: 14px 0px;
+    }
+    .terms-policy{
+        color: rgb(102, 102, 102);
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: underline;
+    }
+
+
+}
+
+@media (min-width: 1280px){
+    .login-main-div{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 500;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-div{
+        background-color: rgb(255, 255, 255);
+        position: relative;
+      
+        opacity: 1;
+    }
+    .empty-div{
+        width: 440px; 
+    }
+    
+    .content-div{
+        background: rgb(255, 255, 255);
+        width: 100%;
+        opacity: 1;
+    }
+
+    .get-started-div{
+        background: rgb(255, 255, 255);
+        z-index: 1;
+        width: 100%;
+        padding: 10px;
+        margin: 15px 0px;
+    }
+    .get{
+        display: flex;
+        flex-flow: row;
+        align-items: stretch;
+        justify-content: flex-start;
+        opacity: 1;
+    }
+    .getstart{
+        flex: 1 1 0%;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: none;
+        color: rgb(51, 51, 51);
+    }
+   
+    .cls-2{
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        align-items: center;
+    }
+    .clo{
+        position: relative;
+        bottom: 4px;
+        height: 25px;
+        width:  25px;
+        cursor: pointer;
+    }
+    
+    .continue-with-child-one{
+        padding: 16px 6px 0px;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .continue-with-grandchild{
+        zoom: 1;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .continue-with-grandchild-1{
+        
+        text-decoration: none;
+   
+        background: 0px 0px;
+        padding: 0px 0px 16px;
+    }
+    .continue-with-grandchild-1-1{
+        width: 100%;
+        height: 48px;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+    }
+    .continue-with-google-div{
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        padding: 13px 0px;
+        font-size: 14px;
+        overflow: hidden;
+        position: absolute;
+        border-radius: 4px;
+        text-align: center;
+        display: inline-block;
+        font-weight: 500;
+        color: rgb(89, 89, 89);
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(153, 153, 153);
+        transition: background 0.5s ease-out;
+    }
+    .continue-with-google-div:hover{
+        background-color:#eae7e7;
+    }
+    .continue-with-google-text{
+        width: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        text-align: center;
+        margin-left: 8px;
+    }
+    .google-logo-span{
+        width:  19px;
+        height: 19px;
+    }
+    .google-logo{
+        max-width: 100%;
+        height:20px;
+        width: 20px;
+    }
+    .apple-icon{
+        max-width: 100%;
+        height:20px ;
+        width: 20px;
+        color: black;
+    }
+    
+}

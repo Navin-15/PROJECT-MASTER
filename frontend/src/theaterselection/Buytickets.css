@@ -1,0 +1,258 @@
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.abtthismovie a {
+  margin-right: 8px;
+  font-size: 0.85rem;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 3px 7px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.abtthismovie a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.clr {
+  height: 10px;
+  width: 10px;
+  margin-top: 3px;
+}
+
+.infotext {
+  font-size: 0.75rem;
+  margin-left: 5px;
+  color: #f0f0f0;
+  margin-top: 5px;
+}
+
+.cinemaname {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* Theater Container */
+.cinema-div {
+  background-color: #2c2c2c;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  color: #fff;
+  margin: 20px 10px;
+}
+
+.theaters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.theaterone-leftcol-child1,
+.theaterone-leftcol-child2 {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+
+/* Time Slot Cards */
+.show-timing-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.time-div {
+  flex: 1 1;
+  min-width: 120px;
+}
+
+.time-holding-div {
+  background-color: #343a40;
+  color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 0.85rem;
+}
+
+.time-holding-div:hover {
+  background-color: #495057;
+  transform: scale(1.03);
+}
+
+.movie-time {
+  font-weight: 500;
+}
+
+/* Cancellation Label */
+.cancel-holding-div {
+  background: #1c1c1c;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.cancel {
+  font-size: 0.8rem;
+  color: #ff6666;
+}
+
+/* Responsive Fixes */
+@media (max-width: 1200px) {
+  .two-component {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .w-75.ms-5.ps-4 {
+    width: 95% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 1rem !important;
+  }
+
+  .me-5.pe-5 {
+    margin-right: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-4,
+  .show-timing-col {
+    width: 100% !important;
+  }
+
+  .cinemaname-div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .time-div {
+    flex: 1 1 45%;
+    min-width: 140px;
+  }
+
+  .clr + p {
+    font-size: 0.7rem !important;
+  }
+
+  .cancel {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .time-div {
+    flex: 1 1 100%;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .abtthismovie a {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+
+  .movie-time {
+    font-size: 0.85rem;
+  }
+
+  .infotext {
+    font-size: 0.7rem;
+  }
+
+  .cinemaname {
+    font-size: 0.85rem;
+  }
+
+  .cancel {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .two-component {
+    padding: 0 1rem;
+  }
+
+  .theaters {
+    flex-direction: column;
+  }
+
+  .show-timing-div {
+    justify-content: center;
+  }
+
+  .time-holding-div {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  sub {
+    font-size: 0.7rem;
+  }
+
+  .cancel-holding-div {
+    padding: 5px 8px;
+  }
+
+  .m-ticketspan img {
+    width: 70px !important;
+  }
+
+  .cinemaname {
+    font-size: 0.8rem;
+  }
+
+  .w-75.ms-5.ps-4 {
+    padding: 0 1rem !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .me-5.pe-5 {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    justify-content: center !important;
+  }
+
+  .clr + p {
+    font-size: 0.65rem !important;
+  }
+}
+
+/* popup content */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+

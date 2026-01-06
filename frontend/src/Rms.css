@@ -1,0 +1,70 @@
+.trailerimage {
+  width: 100px;
+  border-radius: 8px;
+}
+
+.B-img {
+  height: auto;
+  object-fit: cover;
+}
+
+.butt {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.di, .journer {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.dot {
+  font-size: 18px;
+  color: #888;
+}
+
+.book-tickets-button {
+  background-color: #e50914;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+}
+
+.book-tickets-button:hover {
+  background-color: #ff1f2a;
+}
+
+.details-of-movie-div h4 {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.details-of-movie-div p {
+  color: #bbb;
+}
+
+@media (max-width: 768px) {
+  .dev-one,
+  .dev-two,
+  .dev-three {
+    position: static !important;
+    padding: 1rem;
+  }
+
+  .book-tickets-button {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .trailerimage {
+    width: 100%;
+  }
+}

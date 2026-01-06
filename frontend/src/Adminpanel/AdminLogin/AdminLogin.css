@@ -1,0 +1,23 @@
+.adminlogin-background {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  min-height: 100vh;
+}
+
+.adminlogin-form {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+input.form-control {
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #2575fc;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #1a5edb;
+}

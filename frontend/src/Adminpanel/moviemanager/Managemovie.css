@@ -1,0 +1,22 @@
+.moviecontainer {
+  background: #fff;
+    margin-top: 3rem !important;
+    width: 59.2rem;
+    position: relative;
+    top: 80px;
+    left: 7.7rem;
+    padding: 25px;
+    border-radius: 8px;
+}
+.managemovie {
+  width: 74%;
+  border-radius: 8px;
+  position: absolute;
+  right: 45px;
+  top: 70px;
+  padding: 3px;
+  display: flex;
+  background: #fff;
+  padding-left: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,42 @@
+.header {
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.username-box {
+  border: 2px solid red;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: red;
+  font-weight: bold;
+  background-color: #fff5f5;
+}
+
+.logout-btn {
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 8px;
+  position: absolute;
+  right: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+.icon {
+  color: black;
+}
+.admi {
+  position: absolute;
+    right: 112px;
+    top: 19px;
+    font-size: 15px;
+}
+

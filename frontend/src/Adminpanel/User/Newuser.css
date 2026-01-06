@@ -1,0 +1,155 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(222, 220, 220);
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 950px;
+  margin-top: 45px;
+  background: #fff;
+  padding: 30px 30px;
+  border-radius: 8px;
+  position: absolute;
+  left: 22.3%;
+  top: 85px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h3 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.newform {
+  position: relative;
+  top: -35px;
+}
+.newusertemplate {
+  width: 74.3% !important;
+  border-radius: 8px;
+  position: absolute;
+  right: 45px;
+  top: 70px;
+  padding: 3px;
+  display: flex;
+  background: #fff;
+  padding-left: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.newformdiv {
+  position: relative;
+  top: -35px;
+}
+.styled-form {
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  top: -15px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.form-group label {
+  font-weight: 600;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #060606;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.permissions-section {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.permissions-section label {
+  display: flex;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.checkbox-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;                
+  cursor: pointer;
+  font-weight: 500;
+} 
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  gap: 15px;
+  position: relative;
+  top: 10px;
+}
+.form-actions button:nth-child(1) {
+    background-color: transparent !important;
+    border: 2px solid #dc3545;
+    color: black;
+}
+
+.cancel-btn,
+.submit-btn {
+  padding: 10px 25px !important;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.cancel-btn {
+  background-color: white;
+  border: none;
+}
+
+.cancel-btn:hover {
+  background-color: whitesmoke;
+  color: blue;
+}
+
+.submit-btn {
+  background-color: #ff0303;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #ff0303;
+}
+
+

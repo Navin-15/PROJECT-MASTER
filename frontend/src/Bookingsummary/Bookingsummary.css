@@ -1,0 +1,104 @@
+.booking-summary {
+  max-width: 400px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.booking-summary h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: #d33;
+  margin-bottom: 1rem;
+}
+
+.line-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.line-item.subtotal {
+  font-size: 1.1rem;
+  border-top: 1px dashed #ccc;
+  padding-top: 0.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed #ccc;
+  margin: 1rem 0;
+}
+
+.donation {
+  border: 1px solid #eee;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.donation span:first-child {
+  font-weight: bold;
+}
+
+.donation button {
+  margin-left: auto;
+  color: #d33;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.donation small {
+  display: block;
+  color: #777;
+}
+
+.donation a {
+  display: inline-block;
+  margin-top: 0.25rem;
+  color: #06c;
+  text-decoration: underline;
+}
+
+.current-location {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.amount-payable {
+  background: #fffae6;
+  padding: 0.75rem;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ffd54f;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d33;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+}
+
+.footer button {
+  background: #fff;
+  color: #d33;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+

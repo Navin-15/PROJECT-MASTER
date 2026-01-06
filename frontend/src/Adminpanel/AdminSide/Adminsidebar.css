@@ -1,0 +1,36 @@
+.Adminslider{
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px; 
+  background-color:#e70c43;
+  border-right:1px solid #eee ;
+  overflow-y: auto;
+
+}
+.Adminlogodiv {
+  width: 100%; /* Make the logo container span the full width of the sidebar */
+  padding: 14px 0 20px 0;
+  background-color: #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+  display: flex; /* Centers the logo horizontally */
+  justify-content: center;
+  align-items: center;
+  position: sticky; /* Keeps the logo at the top when scrolling */
+  top: 0;
+  z-index: 10; /* Ensures the logo stays on top of the menu items */
+}
+.chevronright,.chevrondown{
+  font-size: 8px;
+}
+.adminUl{
+  list-style: none;
+  padding-top: 10px;
+  margin-top: 30px; 
+}
+.adminlogo{
+    width: 70px;
+    margin-left: 0%;
+}

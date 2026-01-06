@@ -1,0 +1,126 @@
+.parnt{
+    background-color: rgb(1, 1, 1);
+    color: white;
+    max-width: 100%;
+    max-height: 100vh;
+    padding: 50vh 50px;
+    position: relative;
+}
+
+.childd{
+    background-color: white;
+    padding: 40vh 50px;
+    position: absolute;
+    left: 26.5%;
+    top: 10%;
+    width: 43%;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+.childdone{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+.childdtwo{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+.grandchilldone{
+    padding: 5px 0px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.seatimgdiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.vechicleimg{
+    border-radius: 10px;
+    height: 100px ;
+    object-fit: cover;
+}
+.seatunorderlist{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.pop:hover{
+    background-color: red;
+    color: white;
+}
+.pop{
+    padding-top: 14px;
+    cursor: pointer;
+    color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 0px;
+    font-size: 14px;
+    display: inline-block;
+    transition: .5s;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+.colorline{
+    margin-left: 10%;
+    padding: 1px 0px;
+    background-color: antiquewhite;
+    width: 80%;
+}
+.priceinfodiv{
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 1px;
+}
+.category-type{
+    font-size: 12px;
+    color: #666;
+    display: block;
+    text-align: center;
+}
+.category-price{
+    font-weight: 700;
+    color: #333;
+}
+.category-status{
+    color: #2ec492;
+    font-size: 12px;
+    display: block;
+    text-align: center
+}
+.selectseatbutton{
+    background-color: rgb(237, 11, 11);
+    padding: 10px 0px;
+    text-align: center;
+    width: 49%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .16);
+    border-radius: 8px;
+    cursor: pointer;
+    min-height: 40px;
+    max-width: 400px;
+}
+
+.pop:hover {
+  background-color: #fc0202;
+  color: white;
+}
+
+.active-seat {
+  background-color: red;
+  color: white;
+  border-color: darkred;
+}

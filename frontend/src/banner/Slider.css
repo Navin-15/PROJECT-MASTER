@@ -1,0 +1,161 @@
+.carousel-1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-div{
+    max-width: 100%;
+}
+
+.car{
+    background-color: rgba(211, 209, 209, 0.991);
+    overflow-x: hidden;
+}
+
+.carousel-control-prev{
+    padding: 5px;
+}
+
+.carousel-control-prev-icon{
+    margin-left: -151px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: black;
+    width: 40px;
+    padding: 23px 16px;
+    border-radius: 8px;
+}
+
+.carousel-control-next{
+    padding: 5px;
+}
+
+.carousel-control-next-icon{
+    margin-left: 155px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: black;
+    width: 40px;
+    padding: 23px 18px;
+    border-radius: 8px;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+@media (min-width: 425px) and (max-width: 767.98px){
+    .car{ 
+        width:100%        
+    }
+.carousel-control-prev-icon{    
+    margin-left: -55px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: transparent;
+    color: black;
+    width: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon{
+    margin-left: 55px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: transparent;
+    color: black;
+    width: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px){
+
+.carousel-1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon{
+    margin-left: -55px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: transparent;
+    color: black;
+    width: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon{
+    margin-left: 55px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: transparent;
+    color: black;
+    width: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}}
+
+@media (min-width: 1024px) and (max-width: 1439.98px){
+
+    .car{
+        width: 100%;
+    }
+
+.carousel-control-prev-icon{
+    margin-left: -55px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: transparent;
+    color: black;
+    width: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.carousel-control-next-icon{
+    margin-left: 55px;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: transparent;
+    color: black;
+    width: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}}

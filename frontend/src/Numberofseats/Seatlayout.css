@@ -1,0 +1,196 @@
+.toppy{
+    position: sticky;
+    top: 0;
+    background-color: beige;
+}
+
+.timelistitem{
+    border:1px solid green;
+    width: 90px;
+    padding: 8px 0px;
+    color: green;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.timelistitem:hover{
+    background-color: green;
+    color: white;
+}
+.seeat{
+    margin: 10px auto ;
+    padding: 30px 30px;
+    background-color: rgb(248, 244, 244) ;
+}
+.block{
+    padding-bottom: 20px;
+    width: 100%;
+}
+.blocklayout{
+    width: 978px;
+    margin: 0px auto;
+}
+.platinumlayout,.goldlayout{
+    margin-top: 10px;
+}
+.tirename{
+    color: #b3b3b3;
+}
+.emptyln{
+    margin-top: 10px;
+    padding: 1px 0px;
+    background-color: rgb(229, 223, 223);
+    width: 100%;
+}
+.seatR{
+    width: 18px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+.SRow-1{
+    font-weight: 400px;
+}
+.seatempty{
+    margin: 4px;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+.seatno{
+    display: inline-block;
+    border-radius: 3px;
+    padding: 1px 9px;
+    margin: 0px 0px;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    background: #fff;
+    color: green;
+    vertical-align: top;
+    text-decoration: none;
+}
+.seatno:hover{
+    background-color: rgb(22, 154, 22);
+    color: white;
+    transition: 0.5s;
+}
+.active-seat .seatno{
+    background-color: #198754;
+    color: white;
+    border-color: #198754;
+}
+
+.active-seat {
+    background-color: #fd0303;
+    color: white;
+    border-color: #fd0303;
+    border-radius: 12px;
+    width: 27px;
+    height: 25.5px;  
+}
+.available{
+    border: 1px solid green;
+}
+.availabledouble{
+    border: 1px solid green;
+    width: 25px;
+}
+.parentscreendiv{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.screendiv{
+    padding: 10px 50px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #d0c8c8;
+}
+.profile{
+    position: sticky;
+    bottom: 0px;
+}
+
+.total-amount-div{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: grey;
+    text-align: center;
+}
+.total-amount{
+    width: 23%;
+    padding: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(241, 28, 28);
+    align-items: center;
+    font-size: 16px;
+}
+
+.selected-seat {
+  background-color: green !important;
+  color: white;
+}
+
+.booked-seat {
+  background-color: orange !important;
+  color: white;
+  cursor: not-allowed; 
+}
+
+.seatno {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 30px;
+  margin: 2px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.selected-seat {
+  background-color: green;
+}
+
+.orange-disabled {
+  background-color: orange;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.availabledouble {
+  background-color: #d3d3d3;
+  color: #000;
+}
+.pay {
+  background-color: red !important;
+}
+
+.seatno.orange-disabled.clickable {
+  pointer-events: auto !important;
+  cursor: pointer;
+}
+.seat-gap {
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  margin: 0 4px;
+  background: transparent;
+}

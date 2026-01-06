@@ -1,0 +1,59 @@
+/* responsive code */
+.datebar-container {
+  font-family: sans-serif;
+}
+
+.date-card {
+  display: grid;
+  padding: 6px 12px;
+  border-radius: 10px;
+  width: 60px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.date-card .day {
+  font-size: 0.8em;
+}
+
+.date-card .date-num {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.date-card .month {
+  font-size: 0.75em;
+  opacity: 0.75;
+}
+
+.date-card.selected {
+  background-color: #e94e5a;
+  color: white;
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+  .date-card {
+    width: 50px;
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+
+  .date-card .date-num {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .date-card {
+    width: 45px;
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .date-card .date-num {
+    font-size: 1.1em;
+  }
+}
+

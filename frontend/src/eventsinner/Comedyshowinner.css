@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+.custom-accordion-button {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.txt{
+    font-size: 13px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.txt:hover{
+    color: red;
+}
+.custom-accordion-button::after {
+  order: -1;
+  margin-right: 10px;
+  margin-left: 0;
+}
+.date-div{
+    display: flex;
+    flex-direction: column;
+} 
+
+.accordion-button:focus{
+  color: red;
+  box-shadow: none;
+  background-color: transparent;
+}
+.accordion-button{
+  color: black;
+}

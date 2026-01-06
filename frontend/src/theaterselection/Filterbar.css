@@ -1,0 +1,75 @@
+/* responsive code */
+
+.filterbar-container {
+  border: 1px solid #ddd;
+  height: 80px;
+  width: fit-content;
+}
+
+.filter-item {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+  min-width: 120px;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.filter-item .label {
+  flex: 1;
+  color: #333;
+}
+
+.filter-item .arrow {
+  color: #e94e5a;
+  margin-left: 6px;
+}
+
+.filter-item.active-filter {
+  border-bottom: 2px solid #e94e5a;
+}
+
+.search-icon {
+  padding: 0 15px;
+  cursor: pointer;
+  color: #888;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .filterbar-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .filter-item {
+    min-width: auto;
+    flex: 1 1 33%;
+    padding: 15px;
+    font-size: 13px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+  }
+
+  .search-icon {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-item {
+    flex: 1 1 100%;
+    padding: 12px;
+  }
+
+  .filterbar-container {
+    justify-content: center;
+  }
+}
