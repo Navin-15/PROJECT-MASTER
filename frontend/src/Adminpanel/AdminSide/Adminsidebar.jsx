@@ -14,7 +14,7 @@ import {
   FaChair
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import adminlogo from '../../../images/BookMyShow.png';
+import adminlogo from '../../../images/bookMyshow.png';
 import { useAuth } from '../AuthContext';
 
 const AdminSidebar = () => {
