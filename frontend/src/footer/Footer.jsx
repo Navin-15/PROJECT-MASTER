@@ -3,7 +3,7 @@ import { BsHeadset } from "react-icons/bs";
 import { IoTicketSharp } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import bookmyshowlogo from '/images/bookmyshow.png';
-import './footer.css';
+import '../footer/Footer.css';
 
 function Footer() {
   return (
