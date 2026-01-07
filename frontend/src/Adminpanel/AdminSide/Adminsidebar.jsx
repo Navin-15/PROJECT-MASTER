@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './adminsidebar.css';
+import '../AdminSide/Adminsidebar.css';
 import {
   FaHome,
   FaThList,
